@@ -59,11 +59,6 @@ MIPS-Single-Cycle-Processor/
 
 ## 🚀 Simulation Instructions
 
-### 🔧 Prerequisites
-
-- [Icarus Verilog](http://iverilog.icarus.com/)
-
-
 ### 🧪 Run Simulation
 
 1. **Navigate to root directory**:
