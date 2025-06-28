@@ -4,13 +4,13 @@ A Modular implementation of a 32-bit single-cycle MIPS processor written in Veri
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project demonstrates the core architecture of a MIPS processor using hardware description language (Verilog). It supports basic MIPS instructions and provides an integrated datapath and control unit design suitable for simulation and learning purposes.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 MIPS-Single-Cycle-Processor/
@@ -35,7 +35,7 @@ MIPS-Single-Cycle-Processor/
 
 ---
 
-## ✅ Supported Instructions
+##  Supported Instructions
 
 | Type       | Instructions              | Description                            |
 |------------|---------------------------|----------------------------------------|
@@ -46,7 +46,7 @@ MIPS-Single-Cycle-Processor/
 
 ---
 
-## ⚙️ Components Description
+##  Components Description
 
 - **ALU (`alu.v`)**: Performs arithmetic and logic operations.
 - **Register File (`register_file.v`)**: 32 registers with 2 read and 1 write port. Register `$zero` is hardwired to 0.
@@ -57,9 +57,9 @@ MIPS-Single-Cycle-Processor/
 
 ---
 
-## 🚀 Simulation Instructions
+##  Simulation Instructions
 
-### 🧪 Run Simulation
+###  Run Simulation
 
 1. **Navigate to root directory**:
    ```bash
@@ -78,7 +78,7 @@ MIPS-Single-Cycle-Processor/
 
 ---
 
-## 📌 Example Use Case
+##  Example Use Case
 
 You can preload the instruction memory with a small program performing the following:
 
@@ -93,7 +93,7 @@ This will add two numbers and store the result in memory at address 0.
 
 ---
 
-## 🔬 Learning Outcomes
+##  Learning Outcomes
 
 - Understand datapath-level integration of a processor.
 - Learn Verilog for hardware design and simulation.
